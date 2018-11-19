@@ -24,8 +24,8 @@ sudo apt clean $2
 sudo apt autoclean $2
 sudo apt autoremove $2
 echo "Deleting older files of configuration ..."
-sudo apt purge $OLDCONF $2
+sudo apt purge $oldconf $2
 echo "Deleting older kernels ..."
-sudo apt purge $OLDKERNELS $2
+sudo apt purge $oldkernels $2
 echo "Script completed."
 echo "Goodbye."
